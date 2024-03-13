@@ -15,14 +15,14 @@
                 <div class="col">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid text-bg-primary p-3">
-                            <a class="navbar-brand" href="#">Sistema Web</a>
+                            <a class="navbar-brand text-light"  href="#">Sistema Web</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
-                            <a class="nav-link disabled" aria-disabled="true">Consultar</a>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Cadastrar</a>
+                            <a class="nav-link disabled text-light" aria-disabled="true">Consultar</a>
                                  </div>
                             </div>
                         </div>
@@ -39,19 +39,53 @@
     </div>
 </div>
 
-<div class="container text-center">
-    <div class="row align-items-start ">
-          <div class="col">
-              <table class="table">
-                 <thead>
-                     <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Telefone</th>
-                        <th scope="col">Origem</th>
-                        <th scope="col">Data de contato</th>
-                        <th scope="col">Obsevação</th>
-                    </tr>
-                </thead>
+    <div class="container text-center">
+        <div class="row align-items-start ">
+            <div class="col">
+                <div class="overflow-x-auto">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">nome</th>
+                                <th scope="col">telefone</th>
+                                <th scope="col">origem</th>
+                                <th scope="col">data de nascimento</th>
+                                <th scope="col">observaçao</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                    <td>Camilly</td>
+                                    <td>(xx)xxxxx-xxxx</td>
+                                    <td>celular</td>
+                                    <td>dd/aa/mm</td>
+                                    <td>sla</td>
+                            </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                </tr>
+                        </tbody>
+
+                   </table>
+                </div>
             </div>
         </div>
     </div>
